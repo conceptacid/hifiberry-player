@@ -1,12 +1,12 @@
 # hifiberry-player
-How to enable Hifiberry on a NOOB distribution
+How to enable Hifiberry on a NOOBS distribution
 
 1) Hardware requirements: 
 - Raspberry Pi Model B (1-st gen)
-- Hifiberry DAC+ (see https://www.hifiberry.com/dacplus/)
+- [Hifiberry DAC+](see https://www.hifiberry.com/dacplus/)
 
 2) Install NOOBS distribution:
-Follow the instructions from https://www.raspberrypi.org/help/noobs-setup/
+[Follow the instructions from here](https://www.raspberrypi.org/help/noobs-setup/)
 It already has Python and JDK installed
 
 3) Configure sound card 
@@ -42,4 +42,4 @@ Enjoy the music:
 mplayer http://ice1.somafm.com/secretagent-128-mp3
 
 
-(longer instruction see here: https://www.hifiberry.com/guides/configuring-linux-3-18-x/)
+[longer instruction see here](https://www.hifiberry.com/guides/configuring-linux-3-18-x/)
