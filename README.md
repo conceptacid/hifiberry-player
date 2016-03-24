@@ -52,8 +52,10 @@ Install mplayer
 ```
 sudo apt-get install mplayer
 ```
-Enjoy the music:
-mplayer http://ice1.somafm.com/secretagent-128-mp3
 
+Enjoy the music:
+```
+mplayer http://ice1.somafm.com/secretagent-128-mp3
+```
 
 [longer instruction see here](https://www.hifiberry.com/guides/configuring-linux-3-18-x/)
