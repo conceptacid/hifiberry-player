@@ -3,16 +3,20 @@ How to enable Hifiberry on a NOOBS distribution
 
 1) Hardware requirements: 
 - Raspberry Pi Model B (1-st gen)
-- [Hifiberry DAC+](see https://www.hifiberry.com/dacplus/)
+- [Hifiberry DAC+](https://www.hifiberry.com/dacplus/)
+
 
 2) Install NOOBS distribution:
 [Follow the instructions from here](https://www.raspberrypi.org/help/noobs-setup/)
 It already has Python and JDK installed
 
+
 3) Configure sound card 
 Shorter instruction:
 Edit /boot/config.txt
 sudo nano /boot/config.txt
+
+
 
 comment out line 
 dtparam=audio=on
@@ -21,12 +25,14 @@ add line
 dtoverlay=hifiberry-dacplus
 
 Create /etc/asound.conf with the following content:
+'''
 pcm.!default  {
  type hw card 0
 }
 ctl.!default {
  type hw card 0
 }
+''' 
 
 Test it:
 pi@raspberrypi ~ $ aplay -l
